@@ -1,0 +1,6 @@
+langchain==0.2.12
+langchain_community==0.2.11
+ollama
+Requests==2.32.3
+chromadb
+pypdf

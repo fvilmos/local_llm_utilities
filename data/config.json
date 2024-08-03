@@ -1,0 +1,8 @@
+{
+    "//1": "Update parameters according to your needs",
+    "LLM_MODEL": "llama3.1",
+    "LOCAL_VECTOR_DB_PATH":".\\vstorage",
+    "LOCAL_VECTOR_DB_NAME": "chroma-db",
+    "RAG_DEFAULT_CHUNK_SIZE": 300,
+    "RAG_DEFAULT_OVERLAP_SIZE": 60
+}
