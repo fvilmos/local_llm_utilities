@@ -1,15 +1,15 @@
-### Local Large Language Model utilitis
+### Local Large Language Model utilities
 
-This set of utilitis are focused on Local LLM usage with ollama server [1]. The main goal is to decouple as match as possible the implementations from the on-line access or from pre-payed services.
+This set of utilities is focused on Local LLM usage with ollama server [1]. The main goal is to decouple the implementations from online access or pre-paid services as much as possible.
 
 List of features:
 - create / update local vector database(es) using Chroma [4]
-- Local Retrival-Agmented Generation (RAG) with Chroma for (.txt,.pdf) or webpage
+- Local  Retrieval-Augmented Generation (RAG) with Chroma for (.txt,.pdf) or webpage
 - Direct RAG - by digesting directly different filetypes (.txt,.pdf) or webpage ** takes time
-- LLM tool-usage (function calls), and an easy base to extend with specific implementations.
-Curreltly available tools (utils.tools):  get_local_datetime, calculate, search_wikipedia
+- LLM tool usage (function calls), and an easy base to extend with specific implementations.
+Currently available tools (utils.tools):  get_local_datetime, calculate, search_wikipedia
 
-#### Prerequisits
+#### Prerequisites
 
 1. install ollama[1]
 2. pull ollama moldes: llama3.1 [2], nomic-embed-text[5]
