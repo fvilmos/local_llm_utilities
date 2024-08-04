@@ -14,7 +14,6 @@ from utils import tools
 jf = open(".\\data\\config.json",'r')
 cfg_data=json.load(jf)
 
-#print (tools.search_wikipedia("Population of france?"))
 MODEL = cfg_data["LLM_MODEL"]
 
 msg_sys="""You are a helpfull AI assistent that answers user question."""

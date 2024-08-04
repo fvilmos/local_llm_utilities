@@ -4,3 +4,4 @@ ollama
 Requests==2.32.3
 chromadb
 pypdf
+opencv-python
